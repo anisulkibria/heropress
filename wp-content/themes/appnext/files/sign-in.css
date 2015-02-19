@@ -1,0 +1,99 @@
+﻿a.sign-h + ul.dropdown_menu iframe {
+  width: 242px;
+  height: 192px;
+}
+.sign-in {
+  top: 0px;
+  left: 0;
+  width: 240px;
+  z-index: 20;
+  border: 1px solid #c4c4c4;
+  border-top: none;
+  position: absolute;
+  background: #fff;
+}
+.sign-in input {
+  border: none;
+  font-size: 12px;
+  font-family: Lato, Arial;
+}
+.sign-in label {
+  font-size: 12px;
+  font-family: Lato, Arial;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.sign-in label input {
+  width: 161px;
+  margin-left: 8px;
+  outline: none;
+  border-bottom: 1px solid #C4C4C4;
+}
+.sign-in label input[name=password] {
+  width: 130px;
+}
+.sign-in .row {
+  padding: 10px;
+  background: #fff;
+  margin-top: 1px;
+}
+.sign-in input.row.proceed {
+  padding: 16px;
+  background: #188fed url("../i/proceed.png") no-repeat 210px center;
+  text-align: left;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  cursor: pointer;
+}
+.sign-in .remember-me {
+  float: left;
+  width: auto;
+  margin: 7px 10px;
+}
+.sign-in .sign-last-row {
+  height: 40px;
+  overflow: hidden;
+}
+.sign-in .sign-last-row label {
+  background: url("../i/checkbox-off.png") top left no-repeat;
+  padding-left: 20px;
+  text-transform: none;
+  font-size: 14px;
+  width: 80px;
+  display: block;
+  position: relative;
+  float: left;
+  margin-top: 9px;
+  line-height: 1em;
+  cursor: pointer;
+}
+.sign-in .sign-last-row label.checked {
+  background: url("../i/checkbox-on.png") top left no-repeat;
+}
+.sign-in .sign-last-row label input {
+  visibility: hidden;
+  position: absolute;
+}
+.sign-in .sign-last-row a.forgot {
+  text-transform: none;
+  color: #151516;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Lato, Arial;
+  padding: 5px;
+  float: right;
+  line-height: 1.2em;
+  background: #d7d7d7;
+  width: 100px;
+}
+.sign-in .sign-last-row a.forgot:hover {
+  background: #d7d7d7;
+}
+.hint
+{
+    background-color: #fff;
+    text-align:center;
+    float: none;
+}
